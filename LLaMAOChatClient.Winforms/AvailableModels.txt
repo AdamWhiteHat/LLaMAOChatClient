@@ -1,0 +1,279 @@
+Name	Description	URL	MB	Parameters	Downloads	Last Updated
+deepseek-r1	DeepSeek's first generation reasoning models with comparable performance to OpenAI-o1.	https://ollama.com/library/deepseek-r1	1126.4	1.5b	160.1K	12 hours ago
+deepseek-r1	DeepSeek's first generation reasoning models with comparable performance to OpenAI-o1.	https://ollama.com/library/deepseek-r1	4812.8	7b	160.1K	12 hours ago
+deepseek-r1	DeepSeek's first generation reasoning models with comparable performance to OpenAI-o1.	https://ollama.com/library/deepseek-r1	5017.6	8b	160.1K	12 hours ago
+deepseek-r1	DeepSeek's first generation reasoning models with comparable performance to OpenAI-o1.	https://ollama.com/library/deepseek-r1	9216	14b	160.1K	12 hours ago
+deepseek-r1	DeepSeek's first generation reasoning models with comparable performance to OpenAI-o1.	https://ollama.com/library/deepseek-r1	20480	32b	160.1K	12 hours ago
+deepseek-r1	DeepSeek's first generation reasoning models with comparable performance to OpenAI-o1.	https://ollama.com/library/deepseek-r1	44032	70b	160.1K	12 hours ago
+deepseek-r1	DeepSeek's first generation reasoning models with comparable performance to OpenAI-o1.	https://ollama.com/library/deepseek-r1	413696	671b	160.1K	12 hours ago
+llama3.3	New state of the art 70B model. Llama 3.3 70B offers similar performance compared to the Llama 3.1 405B model.	https://ollama.com/library/llama3.3	44032	70b	818.9K	6 weeks ago
+phi4	Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.	https://ollama.com/library/phi4	9318.4	14b	165.3K	13 days ago
+llama3.2	Meta's Llama 3.2 goes small with 1B and 3B models.	https://ollama.com/library/llama3.2	1331.2	1b	7.2M	3 months ago
+llama3.2	Meta's Llama 3.2 goes small with 1B and 3B models.	https://ollama.com/library/llama3.2	2048	3b	7.2M	3 months ago
+llama3.1	Llama 3.1 is a new state-of-the-art model from Meta available in 8B, 70B and 405B parameter sizes.	https://ollama.com/library/llama3.1	5017.6	8b	19.5M	7 weeks ago
+llama3.1	Llama 3.1 is a new state-of-the-art model from Meta available in 8B, 70B and 405B parameter sizes.	https://ollama.com/library/llama3.1	44032	70b	19.5M	7 weeks ago
+llama3.1	Llama 3.1 is a new state-of-the-art model from Meta available in 8B, 70B and 405B parameter sizes.	https://ollama.com/library/llama3.1	248832	405b	19.5M	7 weeks ago
+mistral	The 7B model released by Mistral AI, updated to version 0.3.	https://ollama.com/library/mistral	4198.4	7b	8M	6 months ago
+llama3	Meta Llama 3: The most capable openly available LLM to date	https://ollama.com/library/llama3	4812.8	8b	7.3M	8 months ago
+llama3	Meta Llama 3: The most capable openly available LLM to date	https://ollama.com/library/llama3	40960	70b	7.3M	8 months ago
+gemma	Gemma is a family of lightweight, state-of-the-art open models built by Google DeepMind. Updated to version 1.1	https://ollama.com/library/gemma	1740.8	2b	4.3M	9 months ago
+gemma	Gemma is a family of lightweight, state-of-the-art open models built by Google DeepMind. Updated to version 1.1	https://ollama.com/library/gemma	5120	7b	4.3M	9 months ago
+qwen	Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters	https://ollama.com/library/qwen	395	0.5b	4.3M	9 months ago
+qwen	Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters	https://ollama.com/library/qwen	1126.4	1.8b	4.3M	9 months ago
+qwen	Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters	https://ollama.com/library/qwen	2355.2	4b	4.3M	9 months ago
+qwen	Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters	https://ollama.com/library/qwen	4608	7b	4.3M	9 months ago
+qwen	Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters	https://ollama.com/library/qwen	8396.8	14b	4.3M	9 months ago
+qwen	Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters	https://ollama.com/library/qwen	18432	32b	4.3M	9 months ago
+qwen	Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters	https://ollama.com/library/qwen	41984	72b	4.3M	9 months ago
+qwen	Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters	https://ollama.com/library/qwen	64512	110b	4.3M	9 months ago
+qwen2	Qwen2 is a new series of large language models from Alibaba group	https://ollama.com/library/qwen2	352	0.5b	4M	4 months ago
+qwen2	Qwen2 is a new series of large language models from Alibaba group	https://ollama.com/library/qwen2	935	1.5b	4M	4 months ago
+qwen2	Qwen2 is a new series of large language models from Alibaba group	https://ollama.com/library/qwen2	4505.6	7b	4M	4 months ago
+qwen2	Qwen2 is a new series of large language models from Alibaba group	https://ollama.com/library/qwen2	41984	72b	4M	4 months ago
+qwen2.5	Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support.	https://ollama.com/library/qwen2.5	398	0.5b	3.3M	4 months ago
+qwen2.5	Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support.	https://ollama.com/library/qwen2.5	986	1.5b	3.3M	4 months ago
+qwen2.5	Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support.	https://ollama.com/library/qwen2.5	1945.6	3b	3.3M	4 months ago
+qwen2.5	Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support.	https://ollama.com/library/qwen2.5	4812.8	7b	3.3M	4 months ago
+qwen2.5	Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support.	https://ollama.com/library/qwen2.5	9216	14b	3.3M	4 months ago
+qwen2.5	Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support.	https://ollama.com/library/qwen2.5	20480	32b	3.3M	4 months ago
+qwen2.5	Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support.	https://ollama.com/library/qwen2.5	48128	72b	3.3M	4 months ago
+phi3	Phi-3 is a family of lightweight 3B (Mini) and 14B (Medium) state-of-the-art open models by Microsoft.	https://ollama.com/library/phi3	2252.8	3.8b	2.8M	5 months ago
+phi3	Phi-3 is a family of lightweight 3B (Mini) and 14B (Medium) state-of-the-art open models by Microsoft.	https://ollama.com/library/phi3	8089.6	14b	2.8M	5 months ago
+llama2	Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.	https://ollama.com/library/llama2	3891.2	7b	2.8M	13 months ago
+llama2	Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.	https://ollama.com/library/llama2	7577.6	13b	2.8M	13 months ago
+llama2	Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.	https://ollama.com/library/llama2	39936	70b	2.8M	13 months ago
+llava	LLaVA is a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding. Updated to version 1.6.	https://ollama.com/library/llava	4812.8	7b	2.6M	11 months ago
+llava	LLaVA is a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding. Updated to version 1.6.	https://ollama.com/library/llava	8192	13b	2.6M	11 months ago
+llava	LLaVA is a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding. Updated to version 1.6.	https://ollama.com/library/llava	20480	34b	2.6M	11 months ago
+gemma2	Google Gemma 2 is a high-performing and efficient model available in three sizes: 2B, 9B, and 27B.	https://ollama.com/library/gemma2	1638.4	2b	2.4M	5 months ago
+gemma2	Google Gemma 2 is a high-performing and efficient model available in three sizes: 2B, 9B, and 27B.	https://ollama.com/library/gemma2	5529.6	9b	2.4M	5 months ago
+gemma2	Google Gemma 2 is a high-performing and efficient model available in three sizes: 2B, 9B, and 27B.	https://ollama.com/library/gemma2	16384	27b	2.4M	5 months ago
+codellama	A large language model that can use text prompts to generate and discuss code.	https://ollama.com/library/codellama	3891.2	7b	1.6M	6 months ago
+codellama	A large language model that can use text prompts to generate and discuss code.	https://ollama.com/library/codellama	7577.6	13b	1.6M	6 months ago
+codellama	A large language model that can use text prompts to generate and discuss code.	https://ollama.com/library/codellama	19456	34b	1.6M	6 months ago
+codellama	A large language model that can use text prompts to generate and discuss code.	https://ollama.com/library/codellama	39936	70b	1.6M	6 months ago
+qwen2.5-coder	The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.	https://ollama.com/library/qwen2.5-coder	531	0.5b	1.6M	2 months ago
+qwen2.5-coder	The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.	https://ollama.com/library/qwen2.5-coder	986	1.5b	1.6M	2 months ago
+qwen2.5-coder	The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.	https://ollama.com/library/qwen2.5-coder	1945.6	3b	1.6M	2 months ago
+qwen2.5-coder	The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.	https://ollama.com/library/qwen2.5-coder	4812.8	7b	1.6M	2 months ago
+qwen2.5-coder	The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.	https://ollama.com/library/qwen2.5-coder	9216	14b	1.6M	2 months ago
+qwen2.5-coder	The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.	https://ollama.com/library/qwen2.5-coder	20480	32b	1.6M	2 months ago
+tinyllama	The TinyLlama project is an open endeavor to train a compact 1.1B Llama model on 3 trillion tokens.	https://ollama.com/library/tinyllama	638	1.1b	1.2M	12 months ago
+mxbai-embed-large	State-of-the-art large embedding model from mixedbread.ai	https://ollama.com/library/mxbai-embed-large	670	335m	1M	8 months ago
+mistral-nemo	A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.	https://ollama.com/library/mistral-nemo	7270.4	12b	977.9K	5 months ago
+llama3.2-vision	Llama 3.2 Vision is a collection of instruction-tuned image reasoning generative models in 11B and 90B sizes.	https://ollama.com/library/llama3.2-vision	8089.6	11b	910.7K	2 months ago
+llama3.2-vision	Llama 3.2 Vision is a collection of instruction-tuned image reasoning generative models in 11B and 90B sizes.	https://ollama.com/library/llama3.2-vision	56320	90b	910.7K	2 months ago
+starcoder2	StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.	https://ollama.com/library/starcoder2	1740.8	3b	723.3K	4 months ago
+starcoder2	StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.	https://ollama.com/library/starcoder2	4096	7b	723.3K	4 months ago
+starcoder2	StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.	https://ollama.com/library/starcoder2	9318.4	15b	723.3K	4 months ago
+mixtral	A set of Mixture of Experts (MoE) model with open weights by Mistral AI in 8x7b and 8x22b parameter sizes.	https://ollama.com/library/mixtral	26624	8x7b	528.2K	4 weeks ago
+mixtral	A set of Mixture of Experts (MoE) model with open weights by Mistral AI in 8x7b and 8x22b parameter sizes.	https://ollama.com/library/mixtral	81920	8x22b	528.2K	4 weeks ago
+snowflake-arctic-embed	A suite of text embedding models by Snowflake, optimized for performance.	https://ollama.com/library/snowflake-arctic-embed	46	22m	508.2K	9 months ago
+snowflake-arctic-embed	A suite of text embedding models by Snowflake, optimized for performance.	https://ollama.com/library/snowflake-arctic-embed	67	33m	508.2K	9 months ago
+snowflake-arctic-embed	A suite of text embedding models by Snowflake, optimized for performance.	https://ollama.com/library/snowflake-arctic-embed	219	110m	508.2K	9 months ago
+snowflake-arctic-embed	A suite of text embedding models by Snowflake, optimized for performance.	https://ollama.com/library/snowflake-arctic-embed	274	137m	508.2K	9 months ago
+snowflake-arctic-embed	A suite of text embedding models by Snowflake, optimized for performance.	https://ollama.com/library/snowflake-arctic-embed	669	335m	508.2K	9 months ago
+dolphin-mixtral	Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.	https://ollama.com/library/dolphin-mixtral	26624	8x7b	475.5K	4 weeks ago
+dolphin-mixtral	Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.	https://ollama.com/library/dolphin-mixtral	81920	8x22b	475.5K	4 weeks ago
+deepseek-coder-v2	An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.	https://ollama.com/library/deepseek-coder-v2	9113.6	16b	467.5K	4 months ago
+deepseek-coder-v2	An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.	https://ollama.com/library/deepseek-coder-v2	136192	236b	467.5K	4 months ago
+codegemma	CodeGemma is a collection of powerful, lightweight models that can perform a variety of coding tasks like fill-in-the-middle code completion, code generation, natural language understanding, mathematical reasoning, and instruction following.	https://ollama.com/library/codegemma	1638.4	2b	464.6K	6 months ago
+codegemma	CodeGemma is a collection of powerful, lightweight models that can perform a variety of coding tasks like fill-in-the-middle code completion, code generation, natural language understanding, mathematical reasoning, and instruction following.	https://ollama.com/library/codegemma	5120	7b	464.6K	6 months ago
+phi	Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.	https://ollama.com/library/phi	1638.4	2.7b	461.4K	12 months ago
+llama2-uncensored	Uncensored Llama 2 model by George Sung and Jarrad Hope.	https://ollama.com/library/llama2-uncensored	3891.2	7b	418.4K	15 months ago
+llama2-uncensored	Uncensored Llama 2 model by George Sung and Jarrad Hope.	https://ollama.com/library/llama2-uncensored	39936	70b	418.4K	15 months ago
+deepseek-coder	DeepSeek Coder is a capable coding model trained on two trillion code and natural language tokens.	https://ollama.com/library/deepseek-coder	776	1.3b	404.3K	13 months ago
+deepseek-coder	DeepSeek Coder is a capable coding model trained on two trillion code and natural language tokens.	https://ollama.com/library/deepseek-coder	3891.2	6.7b	404.3K	13 months ago
+deepseek-coder	DeepSeek Coder is a capable coding model trained on two trillion code and natural language tokens.	https://ollama.com/library/deepseek-coder	19456	33b	404.3K	13 months ago
+wizardlm2	State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.	https://ollama.com/library/wizardlm2	4198.4	7b	310.9K	9 months ago
+wizardlm2	State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.	https://ollama.com/library/wizardlm2	81920	8x22b	310.9K	9 months ago
+dolphin-mistral	The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.	https://ollama.com/library/dolphin-mistral	4198.4	7b	304.6K	9 months ago
+all-minilm	Embedding models on very large sentence level datasets.	https://ollama.com/library/all-minilm	46	22m	271.6K	8 months ago
+all-minilm	Embedding models on very large sentence level datasets.	https://ollama.com/library/all-minilm	67	33m	271.6K	8 months ago
+dolphin-llama3	Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.	https://ollama.com/library/dolphin-llama3	4812.8	8b	270.4K	8 months ago
+dolphin-llama3	Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.	https://ollama.com/library/dolphin-llama3	40960	70b	270.4K	8 months ago
+orca-mini	A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.	https://ollama.com/library/orca-mini	2048	3b	265K	15 months ago
+orca-mini	A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.	https://ollama.com/library/orca-mini	3891.2	7b	265K	15 months ago
+orca-mini	A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.	https://ollama.com/library/orca-mini	7577.6	13b	265K	15 months ago
+orca-mini	A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.	https://ollama.com/library/orca-mini	39936	70b	265K	15 months ago
+command-r	Command R is a Large Language Model optimized for conversational interaction and long context tasks.	https://ollama.com/library/command-r	19456	35b	262.8K	4 months ago
+yi	Yi 1.5 is a high-performing, bilingual language model.	https://ollama.com/library/yi	3584	6b	258.4K	8 months ago
+yi	Yi 1.5 is a high-performing, bilingual language model.	https://ollama.com/library/yi	5120	9b	258.4K	8 months ago
+yi	Yi 1.5 is a high-performing, bilingual language model.	https://ollama.com/library/yi	19456	34b	258.4K	8 months ago
+llava-llama3	A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.	https://ollama.com/library/llava-llama3	5632	8b	247.9K	8 months ago
+bge-m3	BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.	https://ollama.com/library/bge-m3	1228.8	567m	234.1K	5 months ago
+zephyr	Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.	https://ollama.com/library/zephyr	4198.4	7b	231.3K	9 months ago
+zephyr	Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.	https://ollama.com/library/zephyr	81920	141b	231.3K	9 months ago
+phi3.5	A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.	https://ollama.com/library/phi3.5	2252.8	3.8b	220.7K	4 months ago
+codestral	Codestral is Mistral AI’s first-ever code model designed for code generation tasks.	https://ollama.com/library/codestral	13312	22b	194.7K	4 months ago
+starcoder	StarCoder is a code generation model trained on 80+ programming languages.	https://ollama.com/library/starcoder	726	1b	178.6K	15 months ago
+starcoder	StarCoder is a code generation model trained on 80+ programming languages.	https://ollama.com/library/starcoder	1843.2	3b	178.6K	15 months ago
+starcoder	StarCoder is a code generation model trained on 80+ programming languages.	https://ollama.com/library/starcoder	4403.2	7b	178.6K	15 months ago
+starcoder	StarCoder is a code generation model trained on 80+ programming languages.	https://ollama.com/library/starcoder	9216	15b	178.6K	15 months ago
+granite-code	A family of open foundation models by IBM for Code Intelligence	https://ollama.com/library/granite-code	2048	3b	175.4K	4 months ago
+granite-code	A family of open foundation models by IBM for Code Intelligence	https://ollama.com/library/granite-code	4710.4	8b	175.4K	4 months ago
+granite-code	A family of open foundation models by IBM for Code Intelligence	https://ollama.com/library/granite-code	12288	20b	175.4K	4 months ago
+granite-code	A family of open foundation models by IBM for Code Intelligence	https://ollama.com/library/granite-code	19456	34b	175.4K	4 months ago
+vicuna	General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.	https://ollama.com/library/vicuna	3891.2	7b	170.6K	15 months ago
+vicuna	General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.	https://ollama.com/library/vicuna	7577.6	13b	170.6K	15 months ago
+vicuna	General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.	https://ollama.com/library/vicuna	18432	33b	170.6K	15 months ago
+mistral-openorca	Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.	https://ollama.com/library/mistral-openorca	4198.4	7b	163.9K	15 months ago
+smollm	A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.	https://ollama.com/library/smollm	92	135m	163.4K	5 months ago
+smollm	A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.	https://ollama.com/library/smollm	229	360m	163.4K	5 months ago
+smollm	A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.	https://ollama.com/library/smollm	991	1.7b	163.4K	5 months ago
+wizard-vicuna-uncensored	Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.	https://ollama.com/library/wizard-vicuna-uncensored	3891.2	7b	161.1K	15 months ago
+wizard-vicuna-uncensored	Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.	https://ollama.com/library/wizard-vicuna-uncensored	7577.6	13b	161.1K	15 months ago
+wizard-vicuna-uncensored	Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.	https://ollama.com/library/wizard-vicuna-uncensored	18432	30b	161.1K	15 months ago
+qwq	QwQ is an experimental research model focused on advancing AI reasoning capabilities.	https://ollama.com/library/qwq	20480	32b	148.3K	7 weeks ago
+llama2-chinese	Llama 2 based model fine tuned to improve Chinese dialogue ability.	https://ollama.com/library/llama2-chinese	3891.2	7b	144.7K	15 months ago
+llama2-chinese	Llama 2 based model fine tuned to improve Chinese dialogue ability.	https://ollama.com/library/llama2-chinese	7577.6	13b	144.7K	15 months ago
+codegeex4	A versatile model for AI software development scenarios, including code completion.	https://ollama.com/library/codegeex4	5632	9b	132K	6 months ago
+openchat	A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.	https://ollama.com/library/openchat	4198.4	7b	128.7K	12 months ago
+aya	Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.	https://ollama.com/library/aya	4915.2	8b	127.9K	8 months ago
+aya	Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.	https://ollama.com/library/aya	20480	35b	127.9K	8 months ago
+codeqwen	CodeQwen1.5 is a large language model pretrained on a large amount of code data.	https://ollama.com/library/codeqwen	4300.8	7b	124.2K	7 months ago
+nous-hermes2	The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.	https://ollama.com/library/nous-hermes2	6246.4	10.7b	119.4K	12 months ago
+nous-hermes2	The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.	https://ollama.com/library/nous-hermes2	19456	34b	119.4K	12 months ago
+mistral-large	Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.	https://ollama.com/library/mistral-large	74752	123b	115.7K	2 months ago
+smollm2	SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters.	https://ollama.com/library/smollm2	271	135m	115.7K	2 months ago
+smollm2	SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters.	https://ollama.com/library/smollm2	726	360m	115.7K	2 months ago
+smollm2	SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters.	https://ollama.com/library/smollm2	1843.2	1.7b	115.7K	2 months ago
+command-r-plus	Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.	https://ollama.com/library/command-r-plus	60416	104b	115.4K	4 months ago
+stable-code	Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.	https://ollama.com/library/stable-code	1638.4	3b	114.5K	10 months ago
+tinydolphin	An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.	https://ollama.com/library/tinydolphin	637	1.1b	113.3K	11 months ago
+glm4	A strong multi-lingual general language model with competitive performance to Llama 3.	https://ollama.com/library/glm4	5632	9b	113.1K	6 months ago
+wizardcoder	State-of-the-art code generation model	https://ollama.com/library/wizardcoder	19456	33b	112.9K	12 months ago
+qwen2-math	Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).	https://ollama.com/library/qwen2-math	935	1.5b	111.7K	4 months ago
+qwen2-math	Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).	https://ollama.com/library/qwen2-math	4505.6	7b	111.7K	4 months ago
+qwen2-math	Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).	https://ollama.com/library/qwen2-math	41984	72b	111.7K	4 months ago
+stablelm2	Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.	https://ollama.com/library/stablelm2	983	1.6b	103.8K	8 months ago
+stablelm2	Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.	https://ollama.com/library/stablelm2	7168	12b	103.8K	8 months ago
+bakllava	BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.	https://ollama.com/library/bakllava	4812.8	7b	103.5K	13 months ago
+reflection	A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.	https://ollama.com/library/reflection	40960	70b	101K	4 months ago
+deepseek-llm	An advanced language model crafted with 2 trillion bilingual tokens.	https://ollama.com/library/deepseek-llm	4096	7b	97.5K	13 months ago
+deepseek-llm	An advanced language model crafted with 2 trillion bilingual tokens.	https://ollama.com/library/deepseek-llm	38912	67b	97.5K	13 months ago
+moondream	moondream2 is a small vision language model designed to run efficiently on edge devices.	https://ollama.com/library/moondream	1740.8	1.8b	95.2K	8 months ago
+llama3-gradient	This model extends LLama-3 8B's context length from 8k to over 1m tokens.	https://ollama.com/library/llama3-gradient	4812.8	8b	95.2K	8 months ago
+llama3-gradient	This model extends LLama-3 8B's context length from 8k to over 1m tokens.	https://ollama.com/library/llama3-gradient	40960	70b	95.2K	8 months ago
+wizard-math	Model focused on math and logic problems	https://ollama.com/library/wizard-math	4198.4	7b	94.9K	13 months ago
+wizard-math	Model focused on math and logic problems	https://ollama.com/library/wizard-math	7577.6	13b	94.9K	13 months ago
+wizard-math	Model focused on math and logic problems	https://ollama.com/library/wizard-math	39936	70b	94.9K	13 months ago
+neural-chat	A fine-tuned model based on Mistral with good coverage of domain and language.	https://ollama.com/library/neural-chat	4198.4	7b	94.5K	13 months ago
+llama3-chatqa	A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).	https://ollama.com/library/llama3-chatqa	4812.8	8b	86K	8 months ago
+llama3-chatqa	A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).	https://ollama.com/library/llama3-chatqa	40960	70b	86K	8 months ago
+sqlcoder	SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks	https://ollama.com/library/sqlcoder	4198.4	7b	84.6K	11 months ago
+sqlcoder	SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks	https://ollama.com/library/sqlcoder	9216	15b	84.6K	11 months ago
+xwinlm	Conversational model based on Llama 2 that performs competitively on various benchmarks.	https://ollama.com/library/xwinlm	3891.2	7b	82.6K	14 months ago
+xwinlm	Conversational model based on Llama 2 that performs competitively on various benchmarks.	https://ollama.com/library/xwinlm	7577.6	13b	82.6K	14 months ago
+nous-hermes	General use models based on Llama and Llama 2 from Nous Research.	https://ollama.com/library/nous-hermes	3891.2	7b	80.1K	15 months ago
+nous-hermes	General use models based on Llama and Llama 2 from Nous Research.	https://ollama.com/library/nous-hermes	7577.6	13b	80.1K	15 months ago
+deepseek-v2	A strong, economical, and efficient Mixture-of-Experts language model.	https://ollama.com/library/deepseek-v2	9113.6	16b	79.9K	7 months ago
+deepseek-v2	A strong, economical, and efficient Mixture-of-Experts language model.	https://ollama.com/library/deepseek-v2	136192	236b	79.9K	7 months ago
+phind-codellama	Code generation model based on Code Llama.	https://ollama.com/library/phind-codellama	19456	34b	79.2K	13 months ago
+dolphincoder	A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.	https://ollama.com/library/dolphincoder	4300.8	7b	78.7K	9 months ago
+dolphincoder	A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.	https://ollama.com/library/dolphincoder	9318.4	15b	78.7K	9 months ago
+yarn-llama2	An extension of Llama 2 that supports a context of up to 128k tokens.	https://ollama.com/library/yarn-llama2	3891.2	7b	77.1K	14 months ago
+yarn-llama2	An extension of Llama 2 that supports a context of up to 128k tokens.	https://ollama.com/library/yarn-llama2	7577.6	13b	77.1K	14 months ago
+minicpm-v	A series of multimodal LLMs (MLLMs) designed for vision-language understanding.	https://ollama.com/library/minicpm-v	5632	8b	75.4K	2 months ago
+hermes3	Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research	https://ollama.com/library/hermes3	2048	3b	73.6K	5 weeks ago
+hermes3	Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research	https://ollama.com/library/hermes3	4812.8	8b	73.6K	5 weeks ago
+hermes3	Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research	https://ollama.com/library/hermes3	40960	70b	73.6K	5 weeks ago
+hermes3	Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research	https://ollama.com/library/hermes3	234496	405b	73.6K	5 weeks ago
+solar	A compact, yet powerful 10.7B large language model designed for single-turn conversation.	https://ollama.com/library/solar	6246.4	10.7b	71.5K	13 months ago
+starling-lm	Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.	https://ollama.com/library/starling-lm	4198.4	7b	71.4K	9 months ago
+yi-coder	Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.	https://ollama.com/library/yi-coder	866	1.5b	70.5K	4 months ago
+yi-coder	Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.	https://ollama.com/library/yi-coder	5120	9b	70.5K	4 months ago
+internlm2	InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.	https://ollama.com/library/internlm2	4608	1m	68K	5 months ago
+internlm2	InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.	https://ollama.com/library/internlm2	1126.4	1.8b	68K	5 months ago
+internlm2	InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.	https://ollama.com/library/internlm2	4608	7b	68K	5 months ago
+internlm2	InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.	https://ollama.com/library/internlm2	11264	20b	68K	5 months ago
+llava-phi3	A new small LLaVA model fine-tuned from Phi 3 Mini.	https://ollama.com/library/llava-phi3	2969.6	3.8b	67.8K	8 months ago
+samantha-mistral	A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.	https://ollama.com/library/samantha-mistral	4198.4	7b	66K	15 months ago
+falcon	A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.	https://ollama.com/library/falcon	4300.8	7b	66K	15 months ago
+falcon	A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.	https://ollama.com/library/falcon	24576	40b	66K	15 months ago
+falcon	A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.	https://ollama.com/library/falcon	103424	180b	66K	15 months ago
+athene-v2	Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.	https://ollama.com/library/athene-v2	48128	72b	62.8K	2 months ago
+mistral-small	Mistral Small is a lightweight model designed for cost-effective use in tasks like translation and summarization.	https://ollama.com/library/mistral-small	13312	22b	62.4K	4 months ago
+orca2	Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.	https://ollama.com/library/orca2	3891.2	7b	60.5K	14 months ago
+orca2	Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.	https://ollama.com/library/orca2	7577.6	13b	60.5K	14 months ago
+stable-beluga	Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.	https://ollama.com/library/stable-beluga	3891.2	7b	57.6K	15 months ago
+stable-beluga	Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.	https://ollama.com/library/stable-beluga	7577.6	13b	57.6K	15 months ago
+stable-beluga	Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.	https://ollama.com/library/stable-beluga	39936	70b	57.6K	15 months ago
+nemotron	Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.	https://ollama.com/library/nemotron	44032	70b	57K	3 months ago
+dolphin-phi	2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.	https://ollama.com/library/dolphin-phi	1638.4	2.7b	56.6K	13 months ago
+wizardlm-uncensored	Uncensored version of Wizard LM model	https://ollama.com/library/wizardlm-uncensored	7577.6	13b	54.5K	15 months ago
+nemotron-mini	A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.	https://ollama.com/library/nemotron-mini	2764.8	4b	51.7K	4 months ago
+llama3-groq-tool-use	A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.	https://ollama.com/library/llama3-groq-tool-use	4812.8	8b	44.3K	6 months ago
+llama3-groq-tool-use	A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.	https://ollama.com/library/llama3-groq-tool-use	40960	70b	44.3K	6 months ago
+yarn-mistral	An extension of Mistral to support context windows of 64K or 128K.	https://ollama.com/library/yarn-mistral	4198.4	7b	44.1K	14 months ago
+medllama2	Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.	https://ollama.com/library/medllama2	3891.2	7b	43.7K	15 months ago
+meditron	Open-source medical large language model adapted from Llama 2 to the medical domain.	https://ollama.com/library/meditron	3891.2	7b	43K	13 months ago
+meditron	Open-source medical large language model adapted from Llama 2 to the medical domain.	https://ollama.com/library/meditron	39936	70b	43K	13 months ago
+nexusraven	Nexus Raven is a 13B instruction tuned model for function calling tasks.	https://ollama.com/library/nexusraven	7577.6	13b	40.4K	12 months ago
+granite3-dense	The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.	https://ollama.com/library/granite3-dense	1638.4	2b	38.3K	2 months ago
+granite3-dense	The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.	https://ollama.com/library/granite3-dense	5017.6	8b	38.3K	2 months ago
+nous-hermes2-mixtral	The Nous Hermes 2 model from Nous Research, now trained over Mixtral.	https://ollama.com/library/nous-hermes2-mixtral	26624	8x7b	37K	4 weeks ago
+codeup	Great code generation model based on Llama2.	https://ollama.com/library/codeup	7577.6	13b	35.7K	15 months ago
+everythinglm	Uncensored Llama2 based model with support for a 16K context window.	https://ollama.com/library/everythinglm	7577.6	13b	34.8K	13 months ago
+granite3.1-dense	The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.	https://ollama.com/library/granite3.1-dense	1638.4	2b	34.5K	4 days ago
+granite3.1-dense	The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.	https://ollama.com/library/granite3.1-dense	5120	8b	34.5K	4 days ago
+dolphin3	Dolphin 3.0 Llama 3.1 8B ?? is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.	https://ollama.com/library/dolphin3	5017.6	8b	33.2K	2 weeks ago
+smallthinker	A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.	https://ollama.com/library/smallthinker	3686.4	3b	32.9K	3 weeks ago
+magicoder	Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.	https://ollama.com/library/magicoder	3891.2	7b	30.9K	13 months ago
+stablelm-zephyr	A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.	https://ollama.com/library/stablelm-zephyr	1638.4	3b	30.3K	13 months ago
+falcon2	Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.	https://ollama.com/library/falcon2	6553.6	11b	30.2K	8 months ago
+codebooga	A high-performing code instruct model created by merging two existing code models.	https://ollama.com/library/codebooga	19456	34b	29.9K	15 months ago
+mathstral	Mathstral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.	https://ollama.com/library/mathstral	4198.4	7b	28.7K	6 months ago
+wizard-vicuna	Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.	https://ollama.com/library/wizard-vicuna	7577.6	13b	28.5K	15 months ago
+mistrallite	MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.	https://ollama.com/library/mistrallite	4198.4	7b	28.3K	14 months ago
+duckdb-nsql	7B parameter text-to-SQL model made by MotherDuck and Numbers Station.	https://ollama.com/library/duckdb-nsql	3891.2	7b	27.7K	11 months ago
+reader-lm	A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.	https://ollama.com/library/reader-lm	352	0.5b	27.2K	4 months ago
+reader-lm	A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.	https://ollama.com/library/reader-lm	935	1.5b	27.2K	4 months ago
+deepseek-v3	A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.	https://ollama.com/library/deepseek-v3	413696	671b	26.3K	8 days ago
+marco-o1	An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).	https://ollama.com/library/marco-o1	4812.8	7b	26K	7 weeks ago
+solar-pro	Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU	https://ollama.com/library/solar-pro	13312	22b	25.8K	4 months ago
+aya-expanse	Cohere For AI's language models trained to perform well across 23 different languages.	https://ollama.com/library/aya-expanse	5222.4	8b	25.7K	2 months ago
+aya-expanse	Cohere For AI's language models trained to perform well across 23 different languages.	https://ollama.com/library/aya-expanse	20480	32b	25.7K	2 months ago
+bge-large	Embedding model from BAAI mapping texts to vectors.	https://ollama.com/library/bge-large	671	335m	24.9K	5 months ago
+granite3-moe	The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.	https://ollama.com/library/granite3-moe	822	1b	24.6K	2 months ago
+granite3-moe	The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.	https://ollama.com/library/granite3-moe	2150.4	3b	24.6K	2 months ago
+megadolphin	MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.	https://ollama.com/library/megadolphin	69632	120b	24.6K	12 months ago
+notux	A top-performing mixture of experts model, fine-tuned with high-quality data.	https://ollama.com/library/notux	26624	8x7b	23.5K	13 months ago
+open-orca-platypus2	Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.	https://ollama.com/library/open-orca-platypus2	7577.6	13b	22.9K	15 months ago
+notus	A 7B chat model fine-tuned with high-quality data and based on Zephyr.	https://ollama.com/library/notus	4198.4	7b	22.9K	12 months ago
+nuextract	A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.	https://ollama.com/library/nuextract	2252.8	3.8b	19.5K	6 months ago
+falcon3	A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.	https://ollama.com/library/falcon3	1843.2	1b	18.7K	5 weeks ago
+falcon3	A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.	https://ollama.com/library/falcon3	2048	3b	18.7K	5 weeks ago
+falcon3	A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.	https://ollama.com/library/falcon3	4710.4	7b	18.7K	5 weeks ago
+falcon3	A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.	https://ollama.com/library/falcon3	6451.2	10b	18.7K	5 weeks ago
+bespoke-minicheck	A state-of-the-art fact-checking model developed by Bespoke Labs.	https://ollama.com/library/bespoke-minicheck	4812.8	7b	18.4K	4 months ago
+dbrx	DBRX is an open, general-purpose LLM created by Databricks.	https://ollama.com/library/dbrx	75776	132b	17.4K	9 months ago
+opencoder	OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.	https://ollama.com/library/opencoder	1433.6	1.5b	17.2K	2 months ago
+opencoder	OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.	https://ollama.com/library/opencoder	4812.8	8b	17.2K	2 months ago
+firefunction-v2	An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.	https://ollama.com/library/firefunction-v2	40960	70b	17K	6 months ago
+llama-guard3	Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.	https://ollama.com/library/llama-guard3	1638.4	1b	15.8K	3 months ago
+llama-guard3	Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.	https://ollama.com/library/llama-guard3	5017.6	8b	15.8K	3 months ago
+deepseek-v2.5	An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.	https://ollama.com/library/deepseek-v2.5	136192	236b	15.7K	4 months ago
+shieldgemma	ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.	https://ollama.com/library/shieldgemma	1740.8	2b	15.7K	3 months ago
+shieldgemma	ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.	https://ollama.com/library/shieldgemma	5939.2	9b	15.7K	3 months ago
+shieldgemma	ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.	https://ollama.com/library/shieldgemma	17408	27b	15.7K	3 months ago
+paraphrase-multilingual	Sentence-transformers model that can be used for tasks like clustering or semantic search.	https://ollama.com/library/paraphrase-multilingual	563	278m	15.4K	5 months ago
+snowflake-arctic-embed2	Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.	https://ollama.com/library/snowflake-arctic-embed2	1228.8	568m	14.7K	6 weeks ago
+alfred	A robust conversational model designed to be used for both chat and instruct use cases.	https://ollama.com/library/alfred	24576	40b	14.7K	14 months ago
+granite3.1-moe	The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.	https://ollama.com/library/granite3.1-moe	1433.6	1b	11.8K	4 days ago
+granite3.1-moe	The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.	https://ollama.com/library/granite3.1-moe	2048	3b	11.8K	4 days ago
+tulu3	Tulu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.	https://ollama.com/library/tulu3	5017.6	8b	10.5K	4 weeks ago
+tulu3	Tulu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.	https://ollama.com/library/tulu3	44032	70b	10.5K	4 weeks ago
+exaone3.5	EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.	https://ollama.com/library/exaone3.5	1638.4	2.4b	9,881	6 weeks ago
+exaone3.5	EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.	https://ollama.com/library/exaone3.5	4915.2	7.8b	9,881	6 weeks ago
+exaone3.5	EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.	https://ollama.com/library/exaone3.5	19456	32b	9,881	6 weeks ago
+granite-embedding	The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.	https://ollama.com/library/granite-embedding	63	30m	8,238	5 weeks ago
+granite-embedding	The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.	https://ollama.com/library/granite-embedding	563	278m	8,238	5 weeks ago
+olmo2	OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.	https://ollama.com/library/olmo2	4608	7b	5,830	10 days ago
+olmo2	OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.	https://ollama.com/library/olmo2	8601.6	13b	5,830	10 days ago
+command-r7b	The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.	https://ollama.com/library/command-r7b	5222.4	7b	5,654	5 days ago
+granite3-guardian	The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.	https://ollama.com/library/granite3-guardian	2764.8	2b	4,552	2 months ago
+granite3-guardian	The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.	https://ollama.com/library/granite3-guardian	5939.2	8b	4,552	2 months ago
+sailor2	Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.	https://ollama.com/library/sailor2	1126.4	1b	3,469	7 weeks ago
+sailor2	Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.	https://ollama.com/library/sailor2	5324.8	8b	3,469	7 weeks ago
+sailor2	Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.	https://ollama.com/library/sailor2	12288	20b	3,469	7 weeks ago
