@@ -25,22 +25,22 @@ namespace LLaMAOChatClient.Core
         private IChatClient _chatClient;
         private StringBuilder _chatResponseBuffer;
         private RichTextBox _textboxControl;
-        
-        public ChatClientWithHistory(RichTextBox outputTextbox, string modelId = "llama3.1")
+
+        public ChatClientWithHistory(RichTextBox outputTextbox, string modelId)
         {
+            if (outputTextbox == null) throw new ArgumentNullException(nameof(outputTextbox));
+            if (string.IsNullOrWhiteSpace(modelId)) throw new ArgumentException("Must provide a model name", nameof(modelId));
+
             ModelId = modelId;
             _textboxControl = outputTextbox;
 
 
             _chatCache = new MemoryDistributedCache(Options.Create(new MemoryDistributedCacheOptions()));
 
-            _chatClient = new OllamaChatClient("http://localhost:11434/", ModelId)
+            _chatClient = new OllamaChatClient(LLaMAOChatClient.Core.System.DefaultServerUrl, ModelId)
               .AsBuilder()
             .UseDistributedCache(_chatCache)
             .Build();
-
-            OllamaSharp.Models.ListModelsResponse lmr;
-
 
             _chatHistory = new List<ChatMessage>();
             _chatResponseBuffer = new StringBuilder();

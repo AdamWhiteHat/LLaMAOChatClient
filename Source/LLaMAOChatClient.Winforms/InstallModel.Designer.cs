@@ -31,8 +31,9 @@ namespace LLaMAOChatClient.Winforms
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            components = new System.ComponentModel.Container();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InstallModel));
             dataGridView1 = new DataGridView();
             btnInstall = new Button();
@@ -51,6 +52,7 @@ namespace LLaMAOChatClient.Winforms
             label5 = new Label();
             label4 = new Label();
             panelPleaseWait = new Panel();
+            labelStatusMessage = new Label();
             pictureBox_PleaseWaitThrobber = new PictureBox();
             label8 = new Label();
             panelSelectModel = new Panel();
@@ -58,12 +60,13 @@ namespace LLaMAOChatClient.Winforms
             comboBoxAiModels = new ComboBox();
             label1 = new Label();
             panelNotRunning = new Panel();
+            textboxOllamaExecutableLocation = new TextBox();
             label13 = new Label();
             buttonLaunchOllamaServer = new Button();
             label12 = new Label();
             label11 = new Label();
             label10 = new Label();
-            textboxOllamaExecutableLocation = new TextBox();
+            timerStatusMessageTicker = new Timer(components);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
             panelInstallModel.SuspendLayout();
@@ -82,28 +85,28 @@ namespace LLaMAOChatClient.Winforms
             dataGridView1.AllowUserToResizeRows = false;
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
-            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically;
             dataGridView1.GridColor = System.Drawing.Color.Black;
             dataGridView1.Location = new System.Drawing.Point(27, 32);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 24;
@@ -293,12 +296,23 @@ namespace LLaMAOChatClient.Winforms
             // panelPleaseWait
             // 
             panelPleaseWait.BackColor = System.Drawing.Color.FromArgb(230, 230, 230);
+            panelPleaseWait.Controls.Add(labelStatusMessage);
             panelPleaseWait.Controls.Add(pictureBox_PleaseWaitThrobber);
             panelPleaseWait.Controls.Add(label8);
-            panelPleaseWait.Location = new System.Drawing.Point(3, 56);
+            panelPleaseWait.Location = new System.Drawing.Point(3, 12);
             panelPleaseWait.Name = "panelPleaseWait";
-            panelPleaseWait.Size = new System.Drawing.Size(994, 303);
+            panelPleaseWait.Size = new System.Drawing.Size(994, 476);
             panelPleaseWait.TabIndex = 10;
+            // 
+            // labelStatusMessage
+            // 
+            labelStatusMessage.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            labelStatusMessage.Location = new System.Drawing.Point(0, 278);
+            labelStatusMessage.Name = "labelStatusMessage";
+            labelStatusMessage.Size = new System.Drawing.Size(992, 22);
+            labelStatusMessage.TabIndex = 5;
+            labelStatusMessage.Text = "Initializing...";
+            labelStatusMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox_PleaseWaitThrobber
             // 
@@ -313,13 +327,13 @@ namespace LLaMAOChatClient.Winforms
             // 
             // label8
             // 
-            label8.AutoSize = true;
             label8.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            label8.Location = new System.Drawing.Point(450, 225);
+            label8.Location = new System.Drawing.Point(0, 225);
             label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(92, 20);
+            label8.Size = new System.Drawing.Size(992, 20);
             label8.TabIndex = 3;
             label8.Text = "Please wait...";
+            label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelSelectModel
             // 
@@ -378,6 +392,17 @@ namespace LLaMAOChatClient.Winforms
             panelNotRunning.Size = new System.Drawing.Size(1000, 500);
             panelNotRunning.TabIndex = 12;
             // 
+            // textboxOllamaExecutableLocation
+            // 
+            textboxOllamaExecutableLocation.BackColor = System.Drawing.SystemColors.Window;
+            textboxOllamaExecutableLocation.Location = new System.Drawing.Point(237, 296);
+            textboxOllamaExecutableLocation.Name = "textboxOllamaExecutableLocation";
+            textboxOllamaExecutableLocation.ReadOnly = true;
+            textboxOllamaExecutableLocation.Size = new System.Drawing.Size(515, 27);
+            textboxOllamaExecutableLocation.TabIndex = 6;
+            textboxOllamaExecutableLocation.Text = "%LOCALAPPDATA%\\Programs\\Ollama\\ollama app.exe";
+            textboxOllamaExecutableLocation.TextAlign = HorizontalAlignment.Center;
+            // 
             // label13
             // 
             label13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
@@ -432,25 +457,18 @@ namespace LLaMAOChatClient.Winforms
             label10.Text = "If that doesn't work,                                                                                      \r\nyoull need to manually run the executable found at the following location:";
             label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textboxOllamaExecutableLocation
+            // timerStatusMessageTicker
             // 
-            textboxOllamaExecutableLocation.BackColor = System.Drawing.SystemColors.Window;
-            textboxOllamaExecutableLocation.Location = new System.Drawing.Point(237, 296);
-            textboxOllamaExecutableLocation.Name = "textboxOllamaExecutableLocation";
-            textboxOllamaExecutableLocation.ReadOnly = true;
-            textboxOllamaExecutableLocation.Size = new System.Drawing.Size(515, 27);
-            textboxOllamaExecutableLocation.TabIndex = 6;
-            textboxOllamaExecutableLocation.Text = "%LOCALAPPDATA%\\Programs\\Ollama\\ollama app.exe";
-            textboxOllamaExecutableLocation.TextAlign = HorizontalAlignment.Center;
+            timerStatusMessageTicker.Tick += StatusMessageTimer_Tick;
             // 
             // InstallModel
             // 
             ClientSize = new System.Drawing.Size(1000, 500);
-            Controls.Add(panelNotRunning);
             Controls.Add(panelPleaseWait);
             Controls.Add(panelDownloadOllama);
             Controls.Add(panelSelectModel);
             Controls.Add(panelInstallModel);
+            Controls.Add(panelNotRunning);
             Name = "InstallModel";
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Install a LLM Model";
@@ -462,7 +480,6 @@ namespace LLaMAOChatClient.Winforms
             panelDownloadOllama.ResumeLayout(false);
             panelDownloadOllama.PerformLayout();
             panelPleaseWait.ResumeLayout(false);
-            panelPleaseWait.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox_PleaseWaitThrobber).EndInit();
             panelSelectModel.ResumeLayout(false);
             panelSelectModel.PerformLayout();
@@ -502,6 +519,8 @@ namespace LLaMAOChatClient.Winforms
         private Button buttonLaunchOllamaServer;
         private Label label12;
         private TextBox textboxOllamaExecutableLocation;
+        private Label labelStatusMessage;
+        private Timer timerStatusMessageTicker;
     }
 }
 

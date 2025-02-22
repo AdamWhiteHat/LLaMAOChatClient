@@ -30,17 +30,17 @@ namespace LLaMAOChatClient.Winforms
         /// </summary>
         private void InitializeComponent()
         {
-            tbInput = new System.Windows.Forms.TextBox();
-            btnSend = new System.Windows.Forms.Button();
-            richChatBox = new System.Windows.Forms.RichTextBox();
+            tbInput = new TextBox();
+            btnSend = new Button();
+            richChatBox = new RichTextBox();
             SuspendLayout();
             // 
             // tbInput
             // 
-            tbInput.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-            tbInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            tbInput.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tbInput.BorderStyle = BorderStyle.FixedSingle;
             tbInput.Location = new System.Drawing.Point(6, 443);
-            tbInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            tbInput.Margin = new Padding(3, 4, 3, 4);
             tbInput.Name = "tbInput";
             tbInput.Size = new System.Drawing.Size(702, 27);
             tbInput.TabIndex = 1;
@@ -49,10 +49,10 @@ namespace LLaMAOChatClient.Winforms
             // 
             // btnSend
             // 
-            btnSend.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
-            btnSend.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnSend.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnSend.FlatStyle = FlatStyle.Flat;
             btnSend.Location = new System.Drawing.Point(715, 440);
-            btnSend.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnSend.Margin = new Padding(3, 4, 3, 4);
             btnSend.Name = "btnSend";
             btnSend.Size = new System.Drawing.Size(84, 30);
             btnSend.TabIndex = 2;
@@ -62,13 +62,13 @@ namespace LLaMAOChatClient.Winforms
             // 
             // richChatBox
             // 
-            richChatBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            richChatBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             richChatBox.BackColor = System.Drawing.SystemColors.Window;
-            richChatBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            richChatBox.BorderStyle = BorderStyle.FixedSingle;
             richChatBox.BulletIndent = 3;
             richChatBox.HideSelection = false;
             richChatBox.Location = new System.Drawing.Point(6, 4);
-            richChatBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            richChatBox.Margin = new Padding(3, 4, 3, 4);
             richChatBox.Name = "richChatBox";
             richChatBox.ReadOnly = true;
             richChatBox.ScrollBars = RichTextBoxScrollBars.ForcedVertical;
@@ -80,14 +80,14 @@ namespace LLaMAOChatClient.Winforms
             // ChatClient
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(806, 478);
             Controls.Add(richChatBox);
             Controls.Add(btnSend);
             Controls.Add(tbInput);
-            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ChatClient";
-            Text = "AI Chat Interface";
+            Text = "AI Chat Interface - Loaded Model: {0}";
             ResumeLayout(false);
             PerformLayout();
         }

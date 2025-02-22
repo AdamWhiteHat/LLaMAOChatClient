@@ -14,6 +14,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Linq.Expressions;
 using System.Threading;
+using System.Collections.Concurrent;
+using OllamaSharp.Models.Chat;
 
 namespace LLaMAOChatClient.Winforms
 {
@@ -44,36 +46,42 @@ namespace LLaMAOChatClient.Winforms
 
             new Thread(delegate ()
             {
-                Core.OllamaStatus serverStatus = LLaMAOChatClient.Core.System.AiServerStatus();
+                UpdateStatusMessageCallback("Starting thread");
+
+                Core.OllamaStatus serverStatus = LLaMAOChatClient.Core.System.AiServerStatus(UpdateStatusMessageCallback);
+
 
                 if (serverStatus == Core.OllamaStatus.OllamaProgramNotInstalled)
                 {
+                    FinalStatusMessage("Detected: Ollama server application not installed!");
                     DownloadOllamaApp();
                 }
                 else if (serverStatus == Core.OllamaStatus.OllamaProgramNotRunning)
                 {
-                    if (!LLaMAOChatClient.Core.System.ExecOllamaServer())
-                    {
-                        OllamaAppNotRunning();
-                    }
+                    FinalStatusMessage("Detected: Ollama server not running!");
+                    OllamaAppNotRunning();
                 }
                 else if (serverStatus == Core.OllamaStatus.OllamaModelNotInstalled)
                 {
+                    FinalStatusMessage("Detected: No AI model installed!");
                     InstallOllamaModel();
                 }
                 else if (serverStatus == Core.OllamaStatus.Success)
                 {
-                    List<string> installedModels = LLaMAOChatClient.Core.System.GetInstalledModels();
+                    List<string> installedModels = LLaMAOChatClient.Core.System.ListLocalModels();  //LLaMAOChatClient.Core.System.GetInstalledModels();
                     if (installedModels.Count == 0)
                     {
+                        FinalStatusMessage("Detected: No AI model installed!");
                         InstallOllamaModel();
                     }
                     else if (installedModels.Count == 1)
                     {
+                        FinalStatusMessage("Found: Single AI model installed; Starting chat client.");
                         SelectModel(installedModels.First());
                     }
                     else if (installedModels.Count > 1)
                     {
+                        FinalStatusMessage("Detected: Multiple AI models installed. Presenting UI to user for selection.");
                         SelectOllamaModel(installedModels);
                     }
                 }
@@ -256,5 +264,71 @@ namespace LLaMAOChatClient.Winforms
         {
             Core.System.ExecOllamaServer();
         }
+
+        #region Status Messages
+
+        // private static System.Windows.Forms.Timer statusMessageReplayTimer = null;
+        private static ConcurrentQueue<string> StatusMessagesQueue = new ConcurrentQueue<string>();
+
+        private void UpdateStatusMessageCallback(string statusMessage)
+        {
+            StatusMessagesQueue.Enqueue(statusMessage);
+
+            this.Invoke(() =>
+            {
+                if (timerStatusMessageTicker != null)
+                {
+                    if (!timerStatusMessageTicker.Enabled)
+                    {
+                        timerStatusMessageTicker.Start();
+                    }
+                }
+            });
+        }
+
+
+        bool messageQueueFinalized = false;
+        private void FinalStatusMessage(string statusMessage)
+        {
+            messageQueueFinalized = true;
+            UpdateStatusMessageCallback(statusMessage);
+        }
+
+        private void StatusMessageTimer_Tick(object s, EventArgs e)
+        {
+            if (StatusMessagesQueue.TryDequeue(out string message))
+            {
+                InvokeSetStatusMessageOnUIThread(message);
+            }
+
+            if (StatusMessagesQueue.IsEmpty)
+            {
+                if (messageQueueFinalized)
+                {
+                    this.Invoke(() =>
+                    {
+                        timerStatusMessageTicker.Stop();
+                    });
+                }
+            }
+        }
+
+        private void InvokeSetStatusMessageOnUIThread(string statusMessage)
+        {
+            if (this.InvokeRequired)
+            {
+                this.Invoke(() =>
+                {
+                    labelStatusMessage.Text = statusMessage;
+                });
+            }
+            else
+            {
+                labelStatusMessage.Text = statusMessage;
+            }
+        }
+
+        #endregion
+
     }
 }

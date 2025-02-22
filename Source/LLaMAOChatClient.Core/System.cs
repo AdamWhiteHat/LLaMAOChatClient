@@ -26,38 +26,76 @@ namespace LLaMAOChatClient.Core
 
     public static class System
     {
+        public static string DefaultServerUrl = "http://localhost:11434/";
         public static string OllamaServerExecutablePath = Environment.ExpandEnvironmentVariables(@"%LOCALAPPDATA%\Programs\Ollama\ollama app.exe");
 
         private static Process _ollamaServerProcess;
+        private static Action<string> _statusMessageCallback = null;
 
-        public static OllamaStatus AiServerStatus()
+        public static OllamaStatus AiServerStatus(Action<string> statusMessageCallback = null)
         {
+            _statusMessageCallback = statusMessageCallback;
+
+            UpdateStatusMessage("Checking Ollama server application installation status");
             if (!OllamaProgramInstallationCheck())
             {
                 return OllamaStatus.OllamaProgramNotInstalled;
             }
 
+            UpdateStatusMessage("Checking for installed Ollama models");
             if (!OllamaModelInstallationCheck())
             {
                 return OllamaStatus.OllamaModelNotInstalled;
             }
 
+            UpdateStatusMessage("Checking if Ollama server process is running");
             if (!IsOllamaServerRunning())
             {
-                if (!ExecOllamaServer())
+                bool success = false;
+                int counter = 0;
+                int maxTries = 2;
+
+                while (!success && counter < maxTries)
                 {
-                    return OllamaStatus.OllamaProgramNotRunning;
+                    counter++;
+
+                    UpdateStatusMessage($"Attempting to launch Ollama server application (×{counter})");
+
+                    DateTime timestampBefore = DateTime.Now;
+
+                    bool launched = ExecOllamaServer();
+
+                    DateTime timestampAfter = DateTime.Now;
+
+                    TimeSpan ellapsedTime = timestampAfter.Subtract(timestampBefore);
+
+                    int ellapsedMilliseconds = (int)ellapsedTime.TotalMilliseconds;
+                    int differenceMilliseconds = 5000 - ellapsedMilliseconds;
+
+                    if (differenceMilliseconds > 0)
+                    {
+                        Thread.Sleep(differenceMilliseconds);
+                    }
+
+                    success = IsOllamaServerRunning();
                 }
 
-                Thread.Sleep(5000);
-
-                if (!IsOllamaServerRunning())
+                if (!success)
                 {
                     return OllamaStatus.OllamaProgramNotRunning;
                 }
             }
 
+            UpdateStatusMessage("Success!");
             return OllamaStatus.Success;
+        }
+
+        private static void UpdateStatusMessage(string statusMessage)
+        {
+            if (_statusMessageCallback != null)
+            {
+                _statusMessageCallback.Invoke(statusMessage);
+            }
         }
 
         public static bool OllamaProgramInstallationCheck()
@@ -135,6 +173,26 @@ namespace LLaMAOChatClient.Core
             return true;
         }
 
+        public static List<string> ListLocalModels()
+        {
+            OllamaApiClient apiClient = new OllamaSharp.OllamaApiClient(DefaultServerUrl);
+
+            Task<IEnumerable<Model>> lmr = apiClient.ListLocalModelsAsync();
+            lmr.Wait();
+
+            return lmr.Result.Select(mdl => mdl.Name).ToList();
+        }
+
+        public static List<string> ListRunningModels()
+        {
+            OllamaApiClient apiClient = new OllamaSharp.OllamaApiClient(DefaultServerUrl);
+
+            Task<IEnumerable<RunningModel>> lmr = apiClient.ListRunningModelsAsync();
+            lmr.Wait();
+
+            return lmr.Result.Select(running => running.Name).ToList();
+        }
+
         public static List<string> GetInstalledModels()
         {
             // Get installed models via path structure:
@@ -165,17 +223,34 @@ namespace LLaMAOChatClient.Core
         public static bool IsOllamaServerRunning()
         {
             bool isRunning = false;
+
+            //isRunning = IsOllamaAppProcessRunning();
+            //if (isRunning)
+            //{
+            //  return true;
+            //}
+
             try
             {
                 Uri uri = new Uri("http://localhost:11434"); //Default Ollama endpoint
                 OllamaApiClient ollama = new OllamaApiClient(uri);
-                isRunning = ollama.IsRunningAsync().Result;
+                var tsk = ollama.IsRunningAsync();
+                tsk.Wait();
+                isRunning = tsk.Result;
+                ollama.Dispose();
             }
             catch
             {
-                return false;
+                isRunning = false;
             }
+
             return isRunning;
+        }
+
+        public static bool IsOllamaAppProcessRunning()
+        {
+            Process[] ollamaProcesses = Process.GetProcessesByName("ollama app");
+            return ollamaProcesses.Any();
         }
 
         public static bool ExecOllamaServer()
@@ -185,7 +260,7 @@ namespace LLaMAOChatClient.Core
             {
                 // Execute: "%LOCALAPPDATA%\Programs\Ollama\ollama app.exe"                
 
-                string arguments = Environment.ExpandEnvironmentVariables(@"START CMD /D /Q /C ""%LOCALAPPDATA%\Programs\Ollama\ollama app.exe""");
+                string arguments = Environment.ExpandEnvironmentVariables(@"/D /Q /C ""%LOCALAPPDATA%\Programs\Ollama\ollama app.exe""");
 
                 Process ollamaServerProcess = new Process();
                 ollamaServerProcess.StartInfo.FileName = "cmd.exe";
@@ -196,10 +271,12 @@ namespace LLaMAOChatClient.Core
                 ollamaServerProcess.StartInfo.ErrorDialog = true;
 
                 newProcessStarted = ollamaServerProcess.Start();
+
+                ollamaServerProcess.WaitForInputIdle(10000);
             }
             catch (Exception ex)
             {
-                return false;
+                newProcessStarted = false;
             }
 
             return newProcessStarted;

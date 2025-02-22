@@ -29,6 +29,7 @@ namespace LLaMAOChatClient.Winforms
         private void ChatClient_Shown(object? sender, EventArgs e)
         {
             _chatCore = new ChatClientWithHistory(richChatBox, ModelId);
+            this.Text = string.Format("AI Chat Interface - Loaded Model: {0}", ModelId);
         }
 
         private void btnSend_Click(object sender, EventArgs e)

@@ -28,7 +28,7 @@ namespace LLaMAOChatClient.Winforms
                 return;
             }
 
-            string modelId = "qwen2-math:72b";//installModelForm.SelectedModel;
+            string modelId = installModelForm.SelectedModel;
 
             ChatClient chatClientForm = new ChatClient(modelId);
 

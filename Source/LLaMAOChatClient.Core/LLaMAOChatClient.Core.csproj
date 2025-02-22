@@ -20,6 +20,9 @@
 
 	<PropertyGroup Condition="'$(Configuration)' == 'Release'">
 		<BaseOutputPath>..\..\Binaries</BaseOutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+		
 	</PropertyGroup>
 
 </Project>
