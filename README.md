@@ -26,3 +26,7 @@ Before attempting to run this application, you will need to download the Ollama 
 There is a large selection of AI models to choose from:
 [https://ollama.com/search](https://ollama.com/search)
 
+## Screenshots
+
+![Screenshot 2025-02-22](https://raw.githubusercontent.com/AdamWhiteHat/LLaMAOChatClient/refs/heads/main/Screenshot_2025-02-22.png)
+
