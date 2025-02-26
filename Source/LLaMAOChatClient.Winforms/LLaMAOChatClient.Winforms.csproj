@@ -8,14 +8,21 @@
 		<Nullable>annotations</Nullable>
 	</PropertyGroup>
 
+	<PropertyGroup>
+		<MajorVersion Condition=" '$(MajorVersion)' == '' ">1</MajorVersion>
+		<MinorVersion Condition=" '$(MinorVersion)' == '' ">0</MinorVersion>
+		<PatchVersion Condition=" '$(PatchVersion)' == '' ">0</PatchVersion>
+
+		<Version>$(MajorVersion).$(MinorVersion).$(PatchVersion)</Version>
+		<AssemblyVersion>$(Version)</AssemblyVersion>
+		<PackageVersion>$(AssemblyVersion)</PackageVersion>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<ProjectReference Include="..\LLaMAOChatClient.Core\LLaMAOChatClient.Core.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-		<None Update="AvailableModels.txt">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
+	<ItemGroup>	
 		<None Update="SpinSimple-greyscale-inverted.gif">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
