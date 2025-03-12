@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -25,6 +26,8 @@ namespace LLaMAOChatClient.Core
         private IChatClient _chatClient;
         private StringBuilder _chatResponseBuffer;
         private RichTextBox _textboxControl;
+
+        private string _chatOutputLogFilenme = "Chat.Output.log.txt";
 
         public ChatClientWithHistory(RichTextBox outputTextbox, string modelId)
         {
@@ -60,15 +63,19 @@ namespace LLaMAOChatClient.Core
 
         public void WriteChatOutput(ChatRole role, string message)
         {
+            string logLine = string.Format("{0}: {1}{2}{2}", ChatOutputPrefix[role], message, Environment.NewLine);
             if (role != ChatRole.System)
             {
-                _textboxControl.Text += string.Format("{0}: {1}{2}{2}", ChatOutputPrefix[role], message, Environment.NewLine);
+                _textboxControl.Text += logLine;
             }
             _chatHistory.Add(new ChatMessage(role, message));
+            File.AppendAllText(_chatOutputLogFilenme, logLine);
+
         }
 
         private static Dictionary<ChatRole, string> ChatOutputPrefix = new Dictionary<ChatRole, string>()
         {
+            { ChatRole.System, "<|System|>" },
             { ChatRole.User, "<YOU>" },
             { ChatRole.Assistant, "<ChatbotAI>" }
         };

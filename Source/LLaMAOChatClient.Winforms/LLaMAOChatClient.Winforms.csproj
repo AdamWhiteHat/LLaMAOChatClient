@@ -11,7 +11,7 @@
 	<PropertyGroup>
 		<MajorVersion Condition=" '$(MajorVersion)' == '' ">1</MajorVersion>
 		<MinorVersion Condition=" '$(MinorVersion)' == '' ">0</MinorVersion>
-		<PatchVersion Condition=" '$(PatchVersion)' == '' ">0</PatchVersion>
+		<PatchVersion Condition=" '$(PatchVersion)' == '' ">1</PatchVersion>
 
 		<Version>$(MajorVersion).$(MinorVersion).$(PatchVersion)</Version>
 		<AssemblyVersion>$(Version)</AssemblyVersion>
